@@ -12,7 +12,7 @@ export default function Projects() {
                     <div className='project-card'>
                         <h3 className='card-title'>Procurement System</h3>
                         <div className='card-img'>
-                            <img src='assets/images/Procurement.png' alt='Procurement' />
+                            <img src='/Portfolio/assets/images/Procurement.png' alt='Procurement' />
                         </div>
                         <div className='card-overview'>
                         In my previous company, I worked on a comprehensive Procurement System 
@@ -33,7 +33,7 @@ export default function Projects() {
                     <div className='project-card'>
                         <h3 className='card-title'>Inventory System</h3>
                         <div className='card-img'>
-                            <img src='assets/images/Inventory.png' alt='Procurement' />
+                            <img src='/Portfolio/assets/images/Inventory.png' alt='Procurement' />
                         </div>
                         <div className='card-overview'>
                         In my previous company, I worked on a simple Inventory System that managed stock levels and tracked inventory movements.

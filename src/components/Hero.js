@@ -13,7 +13,7 @@ export default function Hero() {
           </div>
           <div className="hero-avatar">
             <div className="hero-img">
-              <img src="/assets/images/Echo.jpg" alt="Jericho Mosqueda" />
+              <img src="/Portfolio/assets/images/Echo.jpg" alt="Jericho Mosqueda" />
             </div>
           </div>
         </div>
