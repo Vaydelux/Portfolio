@@ -10,6 +10,11 @@ export default function Hero() {
             <div className="intro-name">
               <div className="intro-text">Jericho Mosqueda</div>
             </div>
+            <div className="intro-contact">
+              <div className="contact-list">
+                <a href="#!" class="list-icons" title='Facebook'><img src="/Portfolio/icons/feather/facebook.svg" alt="Facebook" /></a>
+              </div>
+            </div>
           </div>
           <div className="hero-avatar">
             <div className="hero-img">
