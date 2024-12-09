@@ -1,3 +1,4 @@
+import {useEffect} from 'react';
 import { ToastContainer } from 'react-toastify';
 import './App.scss';
 import About from './components/About';
@@ -9,9 +10,16 @@ import Hero from './components/Hero';
 import Navigation from './components/Navigation';
 import Projects from './components/Projects';
 import 'react-toastify/dist/ReactToastify.css';
+import feather from 'feather-icons';
 
 
 function App(){
+
+  useEffect(() => {
+    // Initialize Feather Icons
+    feather.replace();
+  }, []);
+
   return(
     <div>
       <div><ParticlesComponent id="particles"/></div>

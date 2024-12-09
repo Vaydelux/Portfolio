@@ -132,6 +132,28 @@ body{
             }
           }
 
+          .intro-contact{
+            margin-top: 40px;
+            line-height: 50px;
+
+            .contact-list{
+              color: white;
+              font-size: 24px;
+
+              .icons-container{
+                display: flex;
+                flex-wrap: wrap;
+
+                .icon{
+                  color: var(--main-color);
+                  padding: 0 20px 0 0;
+  
+                }
+              }
+              
+            }
+          }
+
         }
 
         .hero-avatar{
@@ -193,6 +215,31 @@ body{
 
         .about-text{
           text-indent: 10%;
+        }
+
+        .about-cv{
+          display: inline-block;
+          text-align: right;
+          border-radius: 20px;
+          background: transparent;
+          margin: 20px 0 0;
+          padding: 15px;
+          color: white;
+          box-shadow: inset 0 0 10px rgba($color: #76faf8, $alpha: 0.8);
+          font-size: 18px;
+
+          a{
+            text-decoration: none;
+            color: var(--main-color);
+
+            &:hover{
+              color: #ffffff;
+            }
+
+            .download-icon{
+              height: 16px !important;
+            }
+          }
         }
 
       }

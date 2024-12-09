@@ -20,6 +20,11 @@ export default function About (){
                         which further enhances my analytical thinking. With a degree in Information Technology, 
                         I’m excited to grow and contribute to innovative solutions in a supportive team environment.
                     </div>
+                    <div className="about-cv">
+                        <a href="/Portfolio/files/Mosqueda_Jericho_Resume.docx" download>
+                            <i className="download-icon" data-feather="download"></i> Download CV
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
