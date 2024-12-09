@@ -10,9 +10,9 @@ export default function Navigation() {
           <a href="/" className='logo'>Echo</a>
           <nav className='nav-links'>
             <a href="#about-sec"><span>About</span></a>
-            <a href="/#project-sec"><span>Projects</span></a>
-            <a href="/#exp-sec"><span>Experience</span></a>
-            <a href="/#contact-sec"><span>Contact</span></a>
+            <a href="#project-sec"><span>Projects</span></a>
+            <a href="#exp-sec"><span>Experience</span></a>
+            <a href="#contact-sec"><span>Contact</span></a>
           </nav>
         </div>
       </div>
@@ -24,9 +24,9 @@ export default function Navigation() {
           <a href="/" className='logo'>Echo</a>
           <nav className='nav-links'>
             <a href="#about-sec"><span>About</span></a>
-            <a href="/#project-sec"><span>Projects</span></a>
-            <a href="/#exp-sec"><span>Experience</span></a>
-            <a href="/#contact-sec"><span>Contact</span></a>
+            <a href="#project-sec"><span>Projects</span></a>
+            <a href="#exp-sec"><span>Experience</span></a>
+            <a href="#contact-sec"><span>Contact</span></a>
           </nav>
         </div>
       </div>

@@ -9,7 +9,7 @@ const Observer = (thresholdTrig = 0.1) => {
       ([entry]) => {
           //console.log(entry.isIntersecting);
           setIsVisible(entry.isIntersecting);
-          //observer.disconnect(); // Stop observing once the element is visible
+          observer.disconnect(); // Stop observing once the element is visible
       },
       { threshold: thresholdTrig } // Trigger when 10% of the element is visible
     );
