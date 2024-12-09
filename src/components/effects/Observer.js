@@ -8,8 +8,15 @@ const Observer = (thresholdTrig = 0.1) => {
     const observer = new IntersectionObserver(
       ([entry]) => {
           //console.log(entry.isIntersecting);
-          setIsVisible(entry.isIntersecting);
-          //observer.disconnect(); // Stop observing once the element is visible
+          //setIsVisible(entry.isIntersecting);     // issue lagging on mobile devices
+          //observer.disconnect(); // Stop observing all elements
+
+          if (entry.isIntersecting) {
+            setIsVisible(entry.isIntersecting); // set true if already intersected on elements
+          } else {
+            //add set to false if you want dynamic animations (not recommended for mobile devices);
+          }
+
       },
       { threshold: thresholdTrig } // Trigger when 10% of the element is visible
     );
