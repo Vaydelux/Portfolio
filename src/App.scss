@@ -487,8 +487,61 @@ body{
         justify-content: space-between;
         align-items: center;
 
-        .contact-map{
+        .contact-tab{
           flex-basis: 45%;
+          text-align: center;
+          line-height: 30px;
+
+          .contact-info{
+
+            .info-list{
+              display: flex;
+              justify-content: flex-end;
+              align-items: center;
+
+              &:hover .info-desc{
+                color:var(--main-color)
+              }
+
+              &:hover .info-desc a{
+                color:var(--main-color)
+              }
+
+              &:hover .info-icon{
+                background-color: #062462;
+                color: var(--main-color);
+              }
+
+              .info-icon{
+                flex-basis: 5%;
+                background: rgb(255, 255, 255);
+                color: #062462;
+                border-radius: 50%;
+                padding: 5px 8px;
+              }
+
+              .info-desc{
+                flex-basis: 80%;
+                padding-left: 20px;
+                text-align: left;
+
+                .desc-title{
+                  font-size: 16px;
+                  font-weight: 800;
+                }
+              }
+
+              .email-link{
+                text-decoration: none;
+                color: white;
+              }
+            }
+            
+          }
+
+          .contact-map{
+            margin-top: 30px;
+          }
         }
 
         .contact-form{

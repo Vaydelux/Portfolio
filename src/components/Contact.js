@@ -13,9 +13,29 @@ export default function Contact (){
                         Contact
                     </h2>
                     <div className='contact-view'>
-                        <div className='contact-map'>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15447.435534933244!2d121.18249195!3d14.550061249999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1733025462511!5m2!1sen!2sph" width="400" height="300" title="Map" 
-                            style={{border : "0", borderRadius: "10px" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        <div className='contact-tab'>
+                            <div className='contact-info'>
+                                <div title='Phone Number' className='info-list'>
+                                    <div className='info-icon' data-feather="phone"></div>
+                                    <div className='info-desc'>
+                                        <div className='desc-title'>Call Us</div>
+                                        +639487221139
+                                    </div>
+                                    
+                                </div>
+                                <div title='Email Address' className='info-list'>
+                                    <div className='info-icon' data-feather="mail"></div>
+                                    <div className='info-desc'>
+                                        <div className='desc-title'>Email Us</div>
+                                        <a href="mailto:officialjerichom@gmail.com" className='email-link'> officialjerichom@gmail.com</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div className='contact-map'>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15447.435534933244!2d121.18249195!3d14.550061249999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1733025462511!5m2!1sen!2sph" width="400" height="300" title="Map" 
+                                style={{border : "0", borderRadius: "10px" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
                         </div>
                         <form className='contact-form' ref={emailref} onSubmit={sendEmail} >
                             <div className='form-title'>Message Us</div>
@@ -26,7 +46,7 @@ export default function Contact (){
                                 <textarea placeholder='Message' name="form_message" rows={"6"} required ></textarea>
                             </div>
                             <div className='form-send'>
-                                <button type="submit" role='button'>Send Message</button>
+                                <button type="submit" role='submit'>Send Message</button>
                             </div>
                         </form>
                     </div>
