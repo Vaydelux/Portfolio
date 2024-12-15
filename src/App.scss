@@ -669,6 +669,36 @@ body{
 }
 
 
+<<<<<<< HEAD
+=======
+/*==============
+  Media Queries
+================*/
+
+@media screen and (max-width: 376px) {
+  body {
+      font-size: 14px;
+      background-color: lightyellow;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  body {
+      font-size: 16px;
+      background-color: lightblue;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100) {
+  body {
+      font-size: 20px;
+      background-color: lightgreen;
+  }
+}
+
+
+
+>>>>>>> parent of d85acb8 (Updates)
 
 /* Animation */
 @keyframes slideDown{
