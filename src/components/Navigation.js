@@ -5,18 +5,18 @@ const useViewport = () => {
 
   useEffect(() => {
     const updateViewport = () => {
-      const width = window.visualViewport.width; // visual Viewport for accurate on browser devtools
+      const width = window.screen.width; // visual Viewport for accurate on browser devtools
       
       console.log(width);
       if (width < 376) {
-        setViewport(width);
+        setViewport("SE");
       } else if (width >= 376 && width < 768) {
-        setViewport(width);
+        setViewport("mobile");
       }
         else if (width >= 768 && width <= 1024) {
-        setViewport(width);
+        setViewport("tablet");
       } else {
-        setViewport(width);
+        setViewport("desktop");
       }
     };
 
@@ -39,9 +39,7 @@ const Navigation = () => {
         <div className='nav-wrap'>
           <div className='nav-container'>
             <a href="/" className='logo'>Echo</a>
-            <nav className='nav-links'>
-              {viewport}
-            </nav>
+              <div className='nav-dropdown' data-feather="menu"></div>
           </div>
         </div>
       </section>
@@ -53,9 +51,7 @@ const Navigation = () => {
         <div className='nav-wrap'>
           <div className='nav-container'>
             <a href="/" className='logo'>Echo</a>
-            <nav className='nav-links'>
-              {viewport}
-            </nav>
+            <div className='nav-dropdown' data-feather="menu"></div>
           </div>
         </div>
       </section>
@@ -66,12 +62,7 @@ const Navigation = () => {
         <div className='nav-wrap'>
           <div className='nav-container'>
             <a href="/" className='logo'>Echo</a>
-            <nav className='nav-links'>
-              <a href="#about-sec"><span>About</span></a>
-              <a href="#project-sec"><span>Projects</span></a>
-              <a href="#exp-sec"><span>Experience</span></a>
-              <a href="#contact-sec"><span>Contact</span></a>
-            </nav>
+            <div className='nav-dropdown' data-feather="menu"></div>
           </div>
         </div>
       </section>

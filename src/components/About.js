@@ -8,7 +8,7 @@ export default function About (){
             <div className="about-wrap">
                 <div className="about-container">
                     <h2 className="about-title">About Me</h2>
-                    <div className="about-text">
+                    <div className="about-text paragraphs">
                     I am a junior back-end developer with 1 year and 2 months of experience,
                      specializing in C# and ASP.NET Core. I have a solid foundation in front-end technologies, 
                      including jQuery and CSS libraries like Sass and Bootstrap.
