@@ -17,7 +17,7 @@ export default function Contact (){
                             <div className='contact-info'>
                                 <div title='Phone Number' className='info-list'>
                                     <div className='info-icon' data-feather="phone"></div>
-                                    <div className='info-desc'>
+                                    <div className='info-desc paragraphs'>
                                         <div className='desc-title'>Call Us</div>
                                         +639487221139
                                     </div>
@@ -25,7 +25,7 @@ export default function Contact (){
                                 </div>
                                 <div title='Email Address' className='info-list'>
                                     <div className='info-icon' data-feather="mail"></div>
-                                    <div className='info-desc'>
+                                    <div className='info-desc paragraphs'>
                                         <div className='desc-title'>Email Us</div>
                                         <a href="mailto:officialjerichom@gmail.com" className='email-link'> officialjerichom@gmail.com</a>
                                     </div>

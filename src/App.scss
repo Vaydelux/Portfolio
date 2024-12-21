@@ -32,8 +32,8 @@ body{
   header{
     position:fixed;
     top:0;
-    width: 100%;
     z-index: 999;
+    width: 100%;
 
     .nav-sec{
       padding: 0 20px;
@@ -203,7 +203,7 @@ body{
         text-align: justify;
         border-radius: 20px;
         background: var(--background);
-        opacity: 0.7;
+        opacity: 1;
         padding: 30px;
         color: white;
         box-shadow: inset 0 0 10px rgba($color: #76faf8, $alpha: 0.8);
@@ -268,7 +268,7 @@ body{
         text-align: justify;
         border-radius: 20px;
         background: var(--background);
-        opacity: 0.7;
+        opacity: 1;
         padding: 30px;
         color: white;
         box-shadow: inset 0 0 10px rgba($color: #76faf8, $alpha: 0.8);
@@ -314,7 +314,7 @@ body{
                   justify-content: center;
 
                   .tech-icons{
-                    font-size: 18px;
+                    font-size: 26px;
                     padding: 5px;
                     background: white;
                     text-decoration: none;
@@ -349,7 +349,7 @@ body{
         text-align: justify;
         border-radius: 20px;
         background: var(--background);
-        opacity: 0.7;
+        opacity: 1;
         padding: 30px;
         color: white;
         box-shadow: inset 0 0 10px rgba($color: #76faf8, $alpha: 0.8);
@@ -470,7 +470,7 @@ body{
       text-align: justify;
       border-radius: 20px;
       background: var(--background);
-      opacity: 0.7;
+      opacity: 1;
       padding: 30px;
       color: white;
       box-shadow: inset 0 0 10px rgba($color: #76faf8, $alpha: 0.8);
@@ -668,6 +668,10 @@ body{
   animation: slideDown 0.3s forwards;
 }
 
+/*For all text*/
+.paragraphs{
+  font-size: 17px !important;
+}
 
 /*==============
   Media Queries
@@ -687,7 +691,7 @@ body{
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1100) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
       font-size: 20px;
       background-color: lightgreen;

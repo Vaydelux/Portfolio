@@ -12,12 +12,12 @@ export default function Hero() {
             </div>
             <div className="intro-contact">
               <div className="contact-list">
-                <div className="list-title">Socials :</div>
+                <div className="list-title">Social Media :</div>
                 <div className="icons-container">
-                  <a href="https://www.facebook.com/JerichoM16" className="icon" title='Facebook'><i data-feather="facebook"></i></a>
-                  <a href="https://github.com/Vaydelux" className="icon" title='Github'><i data-feather="github"></i></a>
-                  <a href="https://www.instagram.com/jechom16/" className="icon" title='Instagram'><i data-feather="instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/vaydelux/" className="icon" title='LinkedIn'><i data-feather="linkedin"></i></a>
+                  <a target="_blank" rel="noreferrer" href="https://www.facebook.com/JerichoM16" className="icon" title='Facebook'><i data-feather="facebook"></i></a>
+                  <a target="_blank" rel="noreferrer" href="https://github.com/Vaydelux" className="icon" title='Github'><i data-feather="github"></i></a>
+                  <a target="_blank" rel="noreferrer" href="https://www.instagram.com/jechom16/" className="icon" title='Instagram'><i data-feather="instagram"></i></a>
+                  <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/vaydelux/" className="icon" title='LinkedIn'><i data-feather="linkedin"></i></a>
                 </div>
               </div>
             </div>
