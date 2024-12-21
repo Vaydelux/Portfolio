@@ -14,7 +14,11 @@ export default function Projects() {
                         <div className='card-img'>
                             <img src='/Portfolio/assets/images/Procurement.png' alt='Procurement' />
                         </div>
+<<<<<<< HEAD
                         <div className='card-overview paragraphs'>
+=======
+                        <div className='card-overview'>
+>>>>>>> parent of 95d4430 (Updates)
                         In my previous company, I worked on a comprehensive Procurement System 
                         aimed at streamlining the purchasing and supply chain processes. 
                         The system was designed to facilitate efficient procurement management, ensure timely delivery of goods,
@@ -35,7 +39,11 @@ export default function Projects() {
                         <div className='card-img'>
                             <img src='/Portfolio/assets/images/Inventory.png' alt='Procurement' />
                         </div>
+<<<<<<< HEAD
                         <div className='card-overview paragraphs'>
+=======
+                        <div className='card-overview'>
+>>>>>>> parent of 95d4430 (Updates)
                         In my previous company, I worked on a simple Inventory System that managed stock levels and tracked inventory movements.
                          The system provided an easy way to record and monitor stock, helping maintain accurate records and support purchasing decisions.
                           It was integrated with the procurement process to ensure smooth operations across departments.

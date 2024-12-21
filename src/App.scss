@@ -32,8 +32,13 @@ body{
   header{
     position:fixed;
     top:0;
+<<<<<<< HEAD
     z-index: 999;
     width: 100%;
+=======
+    width: 100%;
+    z-index: 999;
+>>>>>>> parent of 95d4430 (Updates)
 
     .nav-sec{
       padding: 0 20px;
@@ -203,7 +208,11 @@ body{
         text-align: justify;
         border-radius: 20px;
         background: var(--background);
+<<<<<<< HEAD
         opacity: 1;
+=======
+        opacity: 0.7;
+>>>>>>> parent of 95d4430 (Updates)
         padding: 30px;
         color: white;
         box-shadow: inset 0 0 10px rgba($color: #76faf8, $alpha: 0.8);
@@ -268,7 +277,11 @@ body{
         text-align: justify;
         border-radius: 20px;
         background: var(--background);
+<<<<<<< HEAD
         opacity: 1;
+=======
+        opacity: 0.7;
+>>>>>>> parent of 95d4430 (Updates)
         padding: 30px;
         color: white;
         box-shadow: inset 0 0 10px rgba($color: #76faf8, $alpha: 0.8);
@@ -314,7 +327,11 @@ body{
                   justify-content: center;
 
                   .tech-icons{
+<<<<<<< HEAD
                     font-size: 26px;
+=======
+                    font-size: 18px;
+>>>>>>> parent of 95d4430 (Updates)
                     padding: 5px;
                     background: white;
                     text-decoration: none;
@@ -349,7 +366,11 @@ body{
         text-align: justify;
         border-radius: 20px;
         background: var(--background);
+<<<<<<< HEAD
         opacity: 1;
+=======
+        opacity: 0.7;
+>>>>>>> parent of 95d4430 (Updates)
         padding: 30px;
         color: white;
         box-shadow: inset 0 0 10px rgba($color: #76faf8, $alpha: 0.8);
@@ -470,7 +491,11 @@ body{
       text-align: justify;
       border-radius: 20px;
       background: var(--background);
+<<<<<<< HEAD
       opacity: 1;
+=======
+      opacity: 0.7;
+>>>>>>> parent of 95d4430 (Updates)
       padding: 30px;
       color: white;
       box-shadow: inset 0 0 10px rgba($color: #76faf8, $alpha: 0.8);
@@ -668,10 +693,13 @@ body{
   animation: slideDown 0.3s forwards;
 }
 
+<<<<<<< HEAD
 /*For all text*/
 .paragraphs{
   font-size: 17px !important;
 }
+=======
+>>>>>>> parent of 95d4430 (Updates)
 
 <<<<<<< HEAD
 =======
@@ -693,7 +721,11 @@ body{
   }
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+=======
+@media screen and (min-width: 768px) and (max-width: 1100) {
+>>>>>>> parent of 95d4430 (Updates)
   body {
       font-size: 20px;
       background-color: lightgreen;

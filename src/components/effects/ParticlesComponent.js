@@ -56,7 +56,11 @@ const ParticlesComponent = (props) => {
         },
         links: {
           color: "#fff",
+<<<<<<< HEAD
           distance: 1,
+=======
+          distance: 0,
+>>>>>>> parent of 95d4430 (Updates)
           enable: true,
           opacity: 0.3,
           width: 1,
@@ -68,17 +72,28 @@ const ParticlesComponent = (props) => {
             default: "bounce",
           },
           random: true,
+<<<<<<< HEAD
           speed: 8,
+=======
+          speed: 1,
+>>>>>>> parent of 95d4430 (Updates)
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
+<<<<<<< HEAD
           value: 40,
         },
         opacity: {
           value: 0.9,
+=======
+          value: 90,
+        },
+        opacity: {
+          value: 0.6,
+>>>>>>> parent of 95d4430 (Updates)
         },
         shape: {
           type: "triangle",
